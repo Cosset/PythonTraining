@@ -21,6 +21,6 @@ for guessesTaken in range(1, 6):
         break # This condition is for the correct guess
         
 if guess == secretNumber:
-    print ('Good job, ' + name + '! You guessed my name in ' + str(guessesTaken) + ' trys!' )
+    print ('Good job, ' + name + '! You guessed the correct number in ' + str(guessesTaken) + ' trys!' )
 else:
     print('Sorry, the number I was thinking of was ' + str(secretNumber) + '.')
